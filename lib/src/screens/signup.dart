@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:personalfinanceapp/src/requests/signUpRequest.dart';
 import 'package:personalfinanceapp/src/screens/login.dart';
 
 class SignUp extends StatefulWidget {
@@ -62,13 +63,19 @@ class _SignUpState extends State<StatefulWidget> {
                   height: 40,
                 ),
                 Center(
-                  child: Container(
-                    decoration: const BoxDecoration(
-                      borderRadius: BorderRadius.all(Radius.circular(10)),
-                      color: Colors.purple,
-                    ),
-                    height: 45,
-                    width: 90,
+                  child: ElevatedButton(
+                    onPressed: () {
+                      String username = emailController.text;
+                      String password = passwordController.text;
+                      signUpUser(username, password).then((String response) {
+                        Navigator.push(
+                          context,
+                          MaterialPageRoute(
+                            builder: (context) => const Login(),
+                          ),
+                        );
+                      });
+                    },
                     child: const Center(
                       child: Text('Sign Up',
                           style: TextStyle(
