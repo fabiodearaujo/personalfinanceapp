@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:personalfinanceapp/src/screens/signup.dart';
+import 'package:personalfinanceapp/src/requests/authUsersRequest.dart';
+import 'package:personalfinanceapp/src/screens/dashboard.dart';
+import 'package:personalfinanceapp/src/screens/signUp.dart';
 
 class Login extends StatefulWidget {
   const Login({
@@ -62,13 +64,19 @@ class _LoginState extends State<StatefulWidget> {
                   height: 40,
                 ),
                 Center(
-                  child: Container(
-                    decoration: const BoxDecoration(
-                      borderRadius: BorderRadius.all(Radius.circular(10)),
-                      color: Colors.purple,
-                    ),
-                    height: 45,
-                    width: 90,
+                  child: ElevatedButton(
+                    onPressed: () {
+                      String username = emailController.text;
+                      String password = passwordController.text;
+                      authUser(username, password).then((String response) {
+                        Navigator.push(
+                          context,
+                          MaterialPageRoute(
+                            builder: (context) => const Dashboard(),
+                          ),
+                        );
+                      });
+                    },
                     child: const Center(
                       child: Text('Sign In',
                           style: TextStyle(
