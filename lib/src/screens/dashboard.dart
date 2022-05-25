@@ -6,7 +6,8 @@ import 'package:flutter/material.dart';
 import 'package:personalfinanceapp/src/screens/login.dart';
 
 class Dashboard extends StatefulWidget {
-  const Dashboard({
+
+  const Dashboard( {
     Key? key,
   }) : super(key: key);
 
@@ -26,7 +27,7 @@ class _DashboardState extends State<StatefulWidget> {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
-            const Text('Hello'),
+            const Text('Token : '),
             const SizedBox(
               height: 20,
             ),

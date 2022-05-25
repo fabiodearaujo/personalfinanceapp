@@ -20,8 +20,6 @@ class Login {
 }
 
 class Logged {
-  Logged({required this.userId, required this.token});
-
-  final int userId;
+  Logged({required this.token});
   final String token;
 }
