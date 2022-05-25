@@ -13,7 +13,7 @@ class Login extends StatefulWidget {
   _LoginState createState() => _LoginState();
 }
 
-class _LoginState extends State<StatefulWidget> {
+class _LoginState extends State<Login> {
   TextEditingController emailController = TextEditingController();
   TextEditingController passwordController = TextEditingController();
 
@@ -72,7 +72,7 @@ class _LoginState extends State<StatefulWidget> {
                         Navigator.push(
                             context,
                             MaterialPageRoute(
-                              builder: (context) => Dashboard(),
+                              builder: (context) => Dashboard(token : response),
                             ),
                           );
                       });

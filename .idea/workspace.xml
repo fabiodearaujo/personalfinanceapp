@@ -5,25 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="72963782-1762-4273-aa3f-a714ca5f2575" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.flutter-plugins" beforeDir="false" afterPath="$PROJECT_DIR$/.flutter-plugins" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.flutter-plugins-dependencies" beforeDir="false" afterPath="$PROJECT_DIR$/.flutter-plugins-dependencies" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Dart_SDK.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Dart_SDK.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/android/app/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/personalfinanceapp_android.iml" beforeDir="false" afterPath="$PROJECT_DIR$/android/personalfinanceapp_android.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/generated_plugin_registrant.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/generated_plugin_registrant.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/src/models/loginModel.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/src/models/loginModel.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/src/requests/authUsersRequest.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/src/requests/authUsersRequest.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/src/requests/signUpRequest.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/src/requests/signUpRequest.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/src/screens/dashboard.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/src/screens/dashboard.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/src/screens/login.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/src/screens/login.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/linux/flutter/generated_plugin_registrant.cc" beforeDir="false" afterPath="$PROJECT_DIR$/linux/flutter/generated_plugin_registrant.cc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/linux/flutter/generated_plugin_registrant.h" beforeDir="false" afterPath="$PROJECT_DIR$/linux/flutter/generated_plugin_registrant.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/linux/flutter/generated_plugins.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/linux/flutter/generated_plugins.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/macos/Flutter/GeneratedPluginRegistrant.swift" beforeDir="false" afterPath="$PROJECT_DIR$/macos/Flutter/GeneratedPluginRegistrant.swift" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/windows/flutter/generated_plugin_registrant.cc" beforeDir="false" afterPath="$PROJECT_DIR$/windows/flutter/generated_plugin_registrant.cc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/windows/flutter/generated_plugin_registrant.h" beforeDir="false" afterPath="$PROJECT_DIR$/windows/flutter/generated_plugin_registrant.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/windows/flutter/generated_plugins.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/windows/flutter/generated_plugins.cmake" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

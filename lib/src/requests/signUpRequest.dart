@@ -14,12 +14,6 @@ Future<String> signUpUser(String email, String pass) async {
       headers: {"Content-Type": "application/json"}, body: body);
   print("${response.statusCode}");
   print("${response.body}");
-  int check = response.statusCode;
   String resp = response.body;
-  if (check == 200) {
-    String test = 'Success';
-    return test;
-  }
-
   return resp;
 }
