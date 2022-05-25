@@ -6,9 +6,9 @@ import 'package:flutter/material.dart';
 import 'package:personalfinanceapp/src/screens/login.dart';
 
 class Dashboard extends StatefulWidget {
-
+  final String token;
   const Dashboard( {
-    Key? key,
+    Key? key, required this.token,
   }) : super(key: key);
 
   @override
@@ -16,7 +16,7 @@ class Dashboard extends StatefulWidget {
   _DashboardState createState() => _DashboardState();
 }
 
-class _DashboardState extends State<StatefulWidget> {
+class _DashboardState extends State<Dashboard> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -27,7 +27,7 @@ class _DashboardState extends State<StatefulWidget> {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
-            const Text('Token : '),
+            Text('Token : ${widget.token}'),
             const SizedBox(
               height: 20,
             ),
